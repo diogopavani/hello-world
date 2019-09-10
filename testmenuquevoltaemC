@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+
+int menu;
+
+    printf("digite 1 ate 9 para mostrar novamente o menu");
+    scanf("%d",&menu);
+
+        switch(menu){
+        case 1:
+            printf("bem vindo");
+            if(menu<=9)
+                return main();
+        }
+
+}
